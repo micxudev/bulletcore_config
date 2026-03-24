@@ -1,0 +1,77 @@
+# Wiki: <link>
+
+generate-all-materials-file: true
+
+blocks_only:
+  addAll: true
+  includePatterns: [ ]
+  excludePatterns:
+    - ^PISTON_HEAD$
+    - ^.*_CAULDRON$
+
+blocks_collidable:
+  addAll: false
+  includePatterns:
+    - ^.*FENCE(?:_GATE)?$
+    - ^.*(?:TRAP)?DOOR$
+    - ^.*GLASS(?:_PANE)?$
+    - ^.*CARPET$
+    - ^.*CANDLE$
+    - ^.*BED$
+    - ^.*CORAL_BLOCK$
+    - ^.*LEAVES$
+    - ^.*EGG$
+    - ^.*LANTERN$
+    - ^.*SKULL$
+    - ^.*HEAD$
+    - ^.*AMETHYST_BUD$
+    - ^.*ICE$
+    - ^IRON_BARS$
+    - ^MANGROVE_ROOTS$
+    - ^MUSHROOM_STEM$
+    - ^MOSS_BLOCK$
+    - ^CACTUS$
+    - ^BIG_DRIPLEAF$
+    - ^BAMBOO$
+    - ^LILY_PAD$
+    - ^SEA_PICKLE$
+    - ^DRIED_KELP_BLOCK$
+    - ^END_ROD$
+    - ^REDSTONE_LAMP$
+    - ^GLOWSTONE$
+    - ^SHROOMLIGHT$
+    - ^REPEATER$
+    - ^COMPARATOR$
+    - ^DAYLIGHT_DETECTOR$
+    - ^CAKE$
+    - ^MELON$
+    - ^HAY_BLOCK$
+    - ^SLIME_BLOCK$
+    - ^LADDER$
+    - ^BREWING_STAND$
+    - ^CONDUIT$
+    - ^COMPOSTER$
+    - ^NOTE_BLOCK$
+    - ^JUKEBOX$
+    - ^AMETHYST_CLUSTER$
+    - ^POINTED_DRIPSTONE$
+    - ^LIGHT$
+    - ^BARRIER$
+    - ^VAULT$
+    - ^(?:FLOWERING_)?AZALEA$
+    - ^CHORUS_(?:PLANT|FLOWER)$
+    - ^(?:NETHER|WARPED)_WART_BLOCK$
+    - ^(?:BROWN|RED)_MUSHROOM_BLOCK$
+    - ^(?:FLOWER|DECORATED)_POT$
+    - ^(?:WET_)?SPONGE$
+    - ^(CARVED_)?PUMPKIN$
+    - ^HONEY(?:COMB)?_BLOCK$
+    - ^SNOW(?:_BLOCK)?$
+    - ^(?:TRIAL_)?SPAWNER$
+  excludePatterns:
+    - ^.*(?:IRON|COPPER)_(?:TRAP)?DOOR$
+
+blocks_non_collidable:
+  addAll: true
+  includePatterns: [ ]
+  excludePatterns: [ ]
