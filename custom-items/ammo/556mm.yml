@@ -1,0 +1,9 @@
+enabled: true
+name: ammo_556mm
+customModelData: 10200
+material: PHANTOM_MEMBRANE
+displayName: "<!i><b><gradient:#e2d7c7:#2b2b2b:#a7c6e3:0.75>Ammo 5.56mm"
+lore: [ ]
+maxStackSize: 1
+
+maxAmmo: 100

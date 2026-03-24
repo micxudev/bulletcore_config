@@ -1,0 +1,9 @@
+enabled: true
+name: ammo_300magnum
+customModelData: 10500
+material: PHANTOM_MEMBRANE
+displayName: "<!i><b><gradient:#e2d7c7:#13402f:#008252:1.0>Ammo .300 Magnum"
+lore: [ ]
+maxStackSize: 1
+
+maxAmmo: 15

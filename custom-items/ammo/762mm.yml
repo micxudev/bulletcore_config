@@ -1,0 +1,9 @@
+enabled: true
+name: ammo_762mm
+customModelData: 10100
+material: PHANTOM_MEMBRANE
+displayName: "<!i><b><gradient:#e2d7c7:#1a1a1a:#363636:0.75>Ammo 7.62mm"
+lore: [ ]
+maxStackSize: 1
+
+maxAmmo: 100

@@ -1,0 +1,9 @@
+enabled: true
+name: ammo_12gauge
+customModelData: 10600
+material: PHANTOM_MEMBRANE
+displayName: "<!i><b><gradient:#e2d7c7:#d86e2c:#ff9f63:0.75>Ammo 12 Gauge"
+lore: [ ]
+maxStackSize: 1
+
+maxAmmo: 24

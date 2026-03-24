@@ -1,0 +1,9 @@
+enabled: true
+name: ammo_45acp
+customModelData: 10400
+material: PHANTOM_MEMBRANE
+displayName: "<!i><b><gradient:#e2d7c7:#163653:#2c5c83:0.75>Ammo .45ACP"
+lore: [ ]
+maxStackSize: 1
+
+maxAmmo: 50

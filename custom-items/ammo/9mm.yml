@@ -1,0 +1,9 @@
+enabled: true
+name: ammo_9mm
+customModelData: 10300
+material: PHANTOM_MEMBRANE
+displayName: "<!i><b><gradient:#e2d7c7:#29321b:#8a9239:0.75>Ammo 9mm"
+lore: [ ]
+maxStackSize: 1
+
+maxAmmo: 50
