@@ -1,0 +1,43 @@
+# Wiki: <link>
+
+command_unknown: <#ff6b6b>Unknown command <#d8d8d8>%commandline%</#d8d8d8>
+command_missing_subcommand: <#ff6b6b>Missing subcommand. Usage <#d8d8d8>/%command% <subcommand></#d8d8d8>
+command_unknown_subcommand: <#ff6b6b>Unknown subcommand <#d8d8d8>%subcommand%</#d8d8d8>
+command_no_permission: <#ff6b6b>You do not have permission to use this command.
+command_not_enough_args: <#ff6b6b>Usage <#d8d8d8>/%command% %subcommand% %args%</#d8d8d8>
+command_players_only: <#ff6b6b>Command can only be used by players.
+command_invalid_operation: <#ff6b6b>Invalid operation <#d8d8d8>%operation%</#d8d8d8>
+
+config_reloaded: <#98fb98>Config reloaded in <#d8d8d8>%time%</#d8d8d8> ms.
+
+player_not_found: <#ff6b6b>Player not found or offline <#d8d8d8>%player%</#d8d8d8>
+
+item_not_found: <#ff6b6b>Item not found <#d8d8d8>%item%</#d8d8d8>
+item_given_success: <#98fb98>Gave <#d8d8d8>%item%</#d8d8d8> to <#d8d8d8>%player%</#d8d8d8>
+
+weapon_not_found: <#ff6b6b>Weapon not found <#d8d8d8>%weapon%</#d8d8d8>
+weapon_status: <b><dark_gray><#ff9f63>%displayname%</#ff9f63> = <#98fb98>%bullets%</#98fb98> / <#fff295>%maxbullets%</#fff295> [<#d8d8d8>%total%</#d8d8d8>]
+weapon_reloading: <b><dark_gray><#ff9f63>Reloading</#ff9f63> = <#98fb98>%bullets%</#98fb98> / <#fff295>%maxbullets%</#fff295> [<#d8d8d8>%total%</#d8d8d8>] | <#ff6b6b>%time%</#ff6b6b> secs
+weapon_reload_canceled: <#ff6b6b>Reload canceled.
+weapon_mainhand_required: <#ff6b6b>You must have a weapon in your main hand.
+
+skin_not_found: <#ff6b6b>Weapon does not have this skin.
+skin_not_loaded: <#ff6b6b>Server did not load this skin on startup.
+skin_not_owned_self: <#ff6b6b>You do not have this skin.
+skin_not_owned_other: <#ff6b6b>Player does not have this skin.
+skin_already_owned_other: <#fff295>Player already owns this skin.
+skin_added_success: <#98fb98>Skin added successfully.
+skin_removed_success: <#98fb98>Skin removed successfully.
+skins_added_success: <#98fb98>Added <#d8d8d8>%count%</#d8d8d8> skin(s) to the player.
+skins_removed_success: <#98fb98>Removed <#d8d8d8>%count%</#d8d8d8> skin(s) from the player.
+
+debug_spray_enabled: <#d8d8d8>Spray debug <#98fb98>ENABLED</#98fb98>
+debug_spray_disabled: <#d8d8d8>Spray debug <#ff6b6b>DISABLED</#ff6b6b>
+debug_block_not_found: <#fff295>No block found within default interaction range.
+debug_block_collidable: <#98fb98>Bullets will be stopped by <#d8d8d8><lang:%block%></#d8d8d8>
+debug_block_non_collidable: <#ff6b6b>Bullets will go through <#d8d8d8><lang:%block%></#d8d8d8>
+
+tier_kit_not_found: <#ff6b6b>Tier kit not found <#d8d8d8>%kit%</#d8d8d8>
+tier_not_found: <#ff6b6b>Tier not found <#d8d8d8>%tier%</#d8d8d8>
+tier_set_success: <#98fb98>Set tier <#d8d8d8>%tier%</#d8d8d8> on kit <#d8d8d8>%kit%</#d8d8d8> for player <#d8d8d8>%player%</#d8d8d8>
+tier_already_set: <#fff295><#d8d8d8>%player%</#d8d8d8> already has tier <#d8d8d8>%tier%</#d8d8d8> on kit <#d8d8d8>%kit%</#d8d8d8>

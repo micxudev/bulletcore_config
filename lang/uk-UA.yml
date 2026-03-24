@@ -1,0 +1,43 @@
+# Wiki: <link>
+
+command_unknown: <#ff6b6b>Невідома команда <#d8d8d8>%commandline%</#d8d8d8>
+command_missing_subcommand: <#ff6b6b>Відсутня підкоманда. Використання <#d8d8d8>/%command% <subcommand></#d8d8d8>
+command_unknown_subcommand: <#ff6b6b>Невідома підкоманда <#d8d8d8>%subcommand%</#d8d8d8>
+command_no_permission: <#ff6b6b>У вас немає дозволу на використання цієї команди.
+command_not_enough_args: <#ff6b6b>Використання <#d8d8d8>/%command% %subcommand% %args%</#d8d8d8>
+command_players_only: <#ff6b6b>Команду можуть використовувати лише гравці.
+command_invalid_operation: <#ff6b6b>Недійсна операція <#d8d8d8>%operation%</#d8d8d8>
+
+config_reloaded: <#98fb98>Конфігурацію перезавантажено за <#d8d8d8>%time%</#d8d8d8> мс.
+
+player_not_found: <#ff6b6b>Гравця не знайдено або він офлайн <#d8d8d8>%player%</#d8d8d8>
+
+item_not_found: <#ff6b6b>Предмет не знайдено <#d8d8d8>%item%</#d8d8d8>
+item_given_success: <#98fb98>Видано предмет <#d8d8d8>%item%</#d8d8d8> гравцю <#d8d8d8>%player%</#d8d8d8>
+
+weapon_not_found: <#ff6b6b>Зброю не знайдено <#d8d8d8>%weapon%</#d8d8d8>
+weapon_status: <b><dark_gray><#ff9f63>%displayname%</#ff9f63> = <#98fb98>%bullets%</#98fb98> / <#fff295>%maxbullets%</#fff295> [<#d8d8d8>%total%</#d8d8d8>]
+weapon_reloading: <b><dark_gray><#ff9f63>Перезарядка</#ff9f63> = <#98fb98>%bullets%</#98fb98> / <#fff295>%maxbullets%</#fff295> [<#d8d8d8>%total%</#d8d8d8>] | <#ff6b6b>%time%</#ff6b6b> сек
+weapon_reload_canceled: <#ff6b6b>Перезарядку скасовано.
+weapon_mainhand_required: <#ff6b6b>Ви повинні тримати зброю в головній руці.
+
+skin_not_found: <#ff6b6b>Ця зброя не має такого скіну.
+skin_not_loaded: <#ff6b6b>Сервер не завантажив цей скін під час запуску.
+skin_not_owned_self: <#ff6b6b>У вас немає цього скіну.
+skin_not_owned_other: <#ff6b6b>У гравця немає цього скіну.
+skin_already_owned_other: <#fff295>Гравець вже має цей скін.
+skin_added_success: <#98fb98>Скін успішно додано.
+skin_removed_success: <#98fb98>Скін успішно видалено.
+skins_added_success: <#98fb98>Додано <#d8d8d8>%count%</#d8d8d8> скін(и) гравцю.
+skins_removed_success: <#98fb98>Видалено <#d8d8d8>%count%</#d8d8d8> скін(и) у гравця.
+
+debug_spray_enabled: <#d8d8d8>Налагодження спрею <#98fb98>УВІМКНЕНО</#98fb98>
+debug_spray_disabled: <#d8d8d8>Налагодження спрею <#ff6b6b>ВИМКНЕНО</#ff6b6b>
+debug_block_not_found: <#fff295>Блок не знайдено в межах стандартної дистанції взаємодії.
+debug_block_collidable: <#98fb98>Кулі будуть зупинені блоком <#d8d8d8><lang:%block%></#d8d8d8>
+debug_block_non_collidable: <#ff6b6b>Кулі пройдуть крізь блок <#d8d8d8><lang:%block%></#d8d8d8>
+
+tier_kit_not_found: <#ff6b6b>Кіт не знайдено <#d8d8d8>%kit%</#d8d8d8>
+tier_not_found: <#ff6b6b>Тир не знайдено <#d8d8d8>%tier%</#d8d8d8>
+tier_set_success: <#98fb98>Встановлено тир <#d8d8d8>%tier%</#d8d8d8> на киті <#d8d8d8>%kit%</#d8d8d8> гравцю <#d8d8d8>%player%</#d8d8d8>
+tier_already_set: <#fff295><#d8d8d8>%player%</#d8d8d8> вже має тир <#d8d8d8>%tier%</#d8d8d8> на киті <#d8d8d8>%kit%</#d8d8d8>
