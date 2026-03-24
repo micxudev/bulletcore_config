@@ -1,0 +1,151 @@
+# Default locale used for messages from the 'lang' folder.
+# Format: en-US, ru-RU, uk-UA
+locale: ru-RU
+
+# Enables hotbar messages during shooting, reloading.
+enable-hotbar-messages: true
+
+# Time window (in ms) after firing a single shot with an automatic weapon
+# during which automatic fire can resume if the player starts sneaking again.
+#
+# Example:
+#   fire-resume-threshold: 1000
+#   - Player fires a single shot at T=0 ms
+#   - Player sneaks again at T=500 ms → automatic fire resumes
+#   - Player sneaks again at T=1200 ms → too late, must click a firing key again
+fire-resume-threshold: 1000
+
+# Damage region thresholds based on hit height.
+# Each value represents the **minimum normalized Y** required to count as a hit on that body part.
+# The values must be in **descending order** (from HEAD to FEET).
+#
+# Example:
+#   If normalizedY > 0.78 → HEAD
+#   If normalizedY > 0.40 → BODY
+#   If normalizedY > 0.08 → LEGS
+#   Else → FEET
+damage-thresholds:
+  head: 0.78
+  body: 0.40
+  legs: 0.08
+
+# Each sound is composed of the following properties:
+# sound - The sound identifier to play.
+#     This can be a built-in Minecraft sound (e.g., 'entity.arrow.hit_player'),
+#     or a custom sound defined by a resource pack (e.g., 'custom.ui.click').
+#
+# category - Controls which volume slider in the client's settings affects the sound.
+#     Available categories:
+#       - MASTER
+#       - MUSIC
+#       - RECORDS
+#       - WEATHER
+#       - BLOCKS
+#       - HOSTILE
+#       - NEUTRAL
+#       - PLAYERS
+#       - AMBIENT
+#       - VOICE
+#
+# volume - Controls both loudness and how far the sound can be heard.
+#     - Minimum: 0.0 — silent
+#     - Default: 1.0 — normal volume and 16-block range
+#     - Technically unlimited, but:
+#         · If volume ≤ 1.0 → audible within 16 blocks
+#         · If volume > 1.0 → audible within (16 × volume) blocks
+#         · Example: 2.0 = 32 blocks, 10.0 = 160 blocks
+#
+# pitch - Affects how high or low the sound is perceived.
+#     - Minimum: 0.5 — one octave lower
+#     - Default: 1.0 — standard pitch
+#     - Maximum: 2.0 — one octave higher
+#
+# seed - Determines which variation plays for sounds with multiple internal variants.
+#     To use a random seed, use -1.
+#
+# mode - Controls how the sound is played back.
+#     - WORLD → Plays the sound at the location in the world so all nearby players can hear it
+#     - PLAYER → Plays the sound directly to a single player only
+#
+# Defaults (if not specified):
+#     category: MASTER
+#     volume: 1.0
+#     pitch: 1.0
+#     seed: 0
+#     mode: WORLD
+sounds:
+  entity-hit-head:
+    sound: headshot
+    category: MASTER
+    volume: 0.5
+    pitch: 1.0
+    seed: 0
+    mode: PLAYER
+  entity-hit-body:
+    sound: bodyshot
+    category: MASTER
+    volume: 0.5
+    pitch: 1.0
+    seed: 0
+    mode: WORLD
+  block-hit:
+    sound: block.metal.hit
+    category: MASTER
+    volume: 1.0
+    pitch: 1.0
+    seed: 0
+    mode: WORLD
+
+# Defines particles to spawn for various events.
+# Each entry supports the following fields:
+# - particle: A valid Minecraft particle ID (see: https://minecraft.wiki/w/Particles_(Java_Edition))
+# - count: Number of particles to spawn (0 disables, default is 1, high values may cause lag)
+#
+# Some particles require additional data:
+#
+# 1). Particle: DUST
+# ▪ color: Color in format '#RRGGBB'
+# ▪ size: Size of the particle [0.01-4.0], default is 1.0
+#
+# 2). Particle: ITEM
+# ▪ item: Non-empty material (see: https://minecraft.wiki/w/Materials for names)
+#
+# 3). Particle: BLOCK, FALLING_DUST, DUST_PILLAR, BLOCK_MARKER
+# ▪ item: Non-empty block material (see: https://minecraft.wiki/w/Block for names)
+#
+# 4). Particle: DUST_COLOR_TRANSITION
+# ▪ from-color: Color in format '#RRGGBB'
+# ▪ to-color: Color in format '#RRGGBB'
+# ▪ size: Size of the particle [0.01-4.0], default is 1.0
+#
+# 5). Particle: VIBRATION - UNSUPPORTED
+#
+# 6). Particle: SCULK_CHARGE
+# ▪ roll: Some float value, default is 1.0
+#
+# 7). Particle: SHRIEK
+# ▪ delay: Number of ticks before the particle is spawned, default is 0
+#
+# 8). Particle: ENTITY_EFFECT
+# ▪ color: Color in format '#RRGGBB'
+#
+particles:
+  entity-hit:
+    particle: DAMAGE_INDICATOR
+    count: 1
+  block-hit:
+    particle: CRIT
+    count: 1
+
+# Armor stand visual features.
+# Each feature supports:
+#   enabled: true/false — turn on/off the feature (default: true)
+#   customModelData: integer — custom model data (default: 0 (vanilla item))
+# Some features also have:
+#   removeAfter: ticks — how long the feature lasts (20 ticks = 1 second)
+armor-stand-features:
+  # Spawns a bullet hole at the block hit location
+  bullet-hole:
+    enabled: true
+    customModelData: 20001
+    removeAfter: 200
