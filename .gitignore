@@ -1,11 +1,21 @@
 ### IntelliJ IDEA ###
 /.idea/
 
+### VS Code ###
+.vscode/
+
 ### Mac OS ###
 .DS_Store
 
 
 ##### BulletCore #####
+
+# .log files are private and specific to server
+*.log
+
+# by now all .json files are "database" files and specific to server
+*.json
+
 
 # auto-generated and is specific to MC version
 /all-materials.yml
