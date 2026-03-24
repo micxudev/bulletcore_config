@@ -1,0 +1,44 @@
+# Wiki: <link>
+
+lore_weapon_bullets:
+  key: <!i><#d8d8d8>
+  count: <#98fb98>
+  max: <#fff295>
+lore_weapon_damage:
+  key: <!i><#d8d8d8>
+  head: <#ff6b6b>
+  body: <#ff6b6b>
+  legs: <#ff6b6b>
+  feet: <#ff6b6b>
+  shield: <#ff6b6b>
+lore_weapon_distance:
+  key: <!i><#d8d8d8>
+  distance: <#ff6b6b>
+lore_weapon_ammo:
+  key: <!i><#d8d8d8>
+  ammo: <#fff295>
+
+lore_ammo_count:
+  key: <!i><#d8d8d8>
+  count: <#98fb98>
+  max: <#fff295>
+
+lore_armor_durability:
+  key: <!i><#d8d8d8>
+  current: <#98fb98>
+  max: <#fff295>
+lore_armor_damage_reduction:
+  key: <!i><#d8d8d8>
+  reduction: <#fff295>
+lore_armor_armor_points:
+  key: <!i><#d8d8d8>
+  points: <#fff295>
+lore_armor_toughness_points:
+  key: <!i><#d8d8d8>
+  points: <#fff295>
+lore_armor_knockback_resistance:
+  key: <!i><#d8d8d8>
+  resistance: <#fff295>
+lore_armor_explosion_knockback_resistance:
+  key: <!i><#d8d8d8>
+  resistance: <#fff295>
