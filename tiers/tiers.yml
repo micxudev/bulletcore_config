@@ -1,0 +1,57 @@
+tiers:
+  LT5:
+    points: 1
+    displayName: "<!i><b><red>LT5"
+  HT5:
+    points: 5
+    displayName: "<!i><b><red>HT5"
+  LT4:
+    points: 10
+    displayName: "<!i><b><red>LT4"
+  HT4:
+    points: 15
+    displayName: "<!i><b><red>HT4"
+  LT3:
+    points: 20
+    displayName: "<!i><b><red>LT3"
+  HT3:
+    points: 25
+    displayName: "<!i><b><red>HT3"
+  RLT2:
+    points: 30
+    displayName: "<!i><b><red>RLT2"
+  LT2:
+    points: 35
+    displayName: "<!i><b><red>LT2"
+  RHT2:
+    points: 40
+    displayName: "<!i><b><red>RHT2"
+  HT2:
+    points: 45
+    displayName: "<!i><b><red>HT2"
+  RLT1:
+    points: 50
+    displayName: "<!i><b><red>RLT1"
+  LT1:
+    points: 55
+    displayName: "<!i><b><red>LT1"
+  RHT1:
+    points: 60
+    displayName: "<!i><b><red>RHT1"
+  HT1:
+    points: 80
+    displayName: "<!i><b><red>HT1"
+
+kits:
+  war:
+    icon: "<symbol>"
+    displayName: "<!i><b><red>Kit War"
+  m1:
+    icon: "<symbol>"
+    displayName: "<!i><b><red>Kit M1"
+  vintovka:
+    icon: "<symbol>"
+    displayName: "<!i><b><red>Kit Vintovka"
+  tournament:
+    icon: "<symbol>"
+    displayName: "<!i><b><red>Kit Tournament"
