@@ -1,0 +1,16 @@
+enabled: true
+name: armor_lvl3_legs
+customModelData: 12100
+material: GOLDEN_LEGGINGS
+displayName: "<!i><b><gradient:#404050:#4a5c79>Поножи (Уровень 3)"
+lore: [ ]
+maxStackSize: 1
+
+maxDurability: 34.0
+damageReduction: 0.5
+unbreakable: true
+
+armorPoints: 0
+toughnessPoints: 0
+knockbackResistance: 0.125
+explosionKnockbackResistance: 0.2

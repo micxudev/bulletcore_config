@@ -1,0 +1,16 @@
+enabled: true
+name: armor_lvl3_boots
+customModelData: 12200
+material: GOLDEN_BOOTS
+displayName: "<!i><b><gradient:#404050:#4a5c79>Ботинки (Уровень 3)"
+lore: [ ]
+maxStackSize: 1
+
+maxDurability: 27.0
+damageReduction: 0.5
+unbreakable: true
+
+armorPoints: 0
+toughnessPoints: 0
+knockbackResistance: 0.0625
+explosionKnockbackResistance: 0.1

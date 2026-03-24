@@ -1,0 +1,16 @@
+enabled: true
+name: armor_lvl3_helmet
+customModelData: 11900
+material: GOLDEN_HELMET
+displayName: "<!i><b><gradient:#404050:#4a5c79>Шлем (Уровень 3)"
+lore: [ ]
+maxStackSize: 1
+
+maxDurability: 120.0
+damageReduction: 0.5
+unbreakable: true
+
+armorPoints: 0
+toughnessPoints: 0
+knockbackResistance: 0.0625
+explosionKnockbackResistance: 0.1

@@ -1,0 +1,16 @@
+enabled: true
+name: armor_lvl2_boots
+customModelData: 11800
+material: CHAINMAIL_BOOTS
+displayName: "<!i><b><gradient:#465153:#626a6c>Ботинки (Уровень 2)"
+lore: [ ]
+maxStackSize: 1
+
+maxDurability: 20.0
+damageReduction: 0.4
+unbreakable: true
+
+armorPoints: 0
+toughnessPoints: 0
+knockbackResistance: 0.05
+explosionKnockbackResistance: 0.075

@@ -1,0 +1,16 @@
+enabled: true
+name: armor_lvl1_helmet
+customModelData: 11100
+material: LEATHER_HELMET
+displayName: "<!i><b><gradient:#48413f:#5a5a59>Шлем (Уровень 1)"
+lore: [ ]
+maxStackSize: 1
+
+maxDurability: 60.0
+damageReduction: 0.2
+unbreakable: true
+
+armorPoints: 0
+toughnessPoints: 0
+knockbackResistance: 0.0375
+explosionKnockbackResistance: 0.05

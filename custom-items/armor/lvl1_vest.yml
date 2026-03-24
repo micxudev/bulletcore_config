@@ -1,0 +1,16 @@
+enabled: true
+name: armor_lvl1_vest
+customModelData: 11200
+material: LEATHER_CHESTPLATE
+displayName: "<!i><b><gradient:#48413f:#5a5a59>Жилет (Уровень 1)"
+lore: [ ]
+maxStackSize: 1
+
+maxDurability: 35.0
+damageReduction: 0.2
+unbreakable: true
+
+armorPoints: 0
+toughnessPoints: 0
+knockbackResistance: 0.15
+explosionKnockbackResistance: 0.2
