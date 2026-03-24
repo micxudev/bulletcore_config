@@ -1,0 +1,113 @@
+enabled: true
+name: weapon_ak47
+customModelData: 13000
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>AK-47"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_762mm
+reloadHandler: default
+delayBetweenShots: 100
+maxBullets: 30
+reloadTime: 2400
+isAutomatic: true
+victimKnockbackResistance: 0.4
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 200.0
+  gravity: 2.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 128.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 25.0
+  body: 9.0
+  legs: 7.0
+  feet: 5.0
+  shield: 100.0
+
+recoil:
+  meanX: 0.55
+  meanY: 1.8
+  varianceX: 0.3
+  varianceY: 0.3
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.1
+  recoveryPercent: 0.25
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 3.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 1.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: ak47_fire
+    volume: 5.0
+  reload_start:
+    sound: ak47_reload_start
+    volume: 1.0
+  reload_end:
+    sound: ak47_reload_end
+    volume: 1.0
+  empty:
+    sound: ak47_empty
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.5
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 1
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.15
+
+skins:
+  death:
+    displayName: "<!i><b><gradient:#990f02:#211d1c:#eec770>AK-47 - Death"
+  fish:
+    displayName: "<!i><b><gradient:#2f4a6f:#419642:#7a2d27>AK-47 - Fish"
+  gold:
+    displayName: "<!i><b><gradient:#54402e:#ccac47:#edeec2>AK-47 - Gold"
+  rust:
+    displayName: "<!i><b><gradient:#9f1f25:#1d1c1a:#e78441>AK-47 - Rust"
+  theimpair:
+    displayName: "<!i><b><gradient:#0e252c:#ad963e:#bc2c2c>AK-47 - Theimpair"
+  tiktok:
+    displayName: "<!i><b><gradient:#00aab4:#232323:#a80d68>AK-47 - Tiktok"
+
+blocks_penetration: [ ]

@@ -1,0 +1,113 @@
+enabled: true
+name: weapon_bizon
+customModelData: 13300
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>Bizon"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_9mm
+reloadHandler: default
+delayBetweenShots: 100
+maxBullets: 53
+reloadTime: 2200
+isAutomatic: true
+victimKnockbackResistance: 0.4
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 100.0
+  gravity: 1.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 80.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 16.0
+  body: 6.0
+  legs: 5.0
+  feet: 4.0
+  shield: 75.0
+
+recoil:
+  meanX: 0.55
+  meanY: 1.8
+  varianceX: 0.3
+  varianceY: 0.3
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.075
+  recoveryPercent: 0.2
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 2.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 1.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: bizon_fire
+    volume: 4.0
+  reload_start:
+    sound: bizon_reload_start
+    volume: 1.0
+  reload_end:
+    sound: bizon_reload_end
+    volume: 1.0
+  empty:
+    sound: bizon_empty
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.5
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 1
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.15
+
+skins:
+  darkgold:
+    displayName: "<!i><b><gradient:#302e2b:#d6a951:#795939>Bizon - Dark Gold"
+  hotdog:
+    displayName: "<!i><b><gradient:#945233:#ac951f:#b94736>Bizon - Hotdog"
+  joker:
+    displayName: "<!i><b><gradient:#363638:#929292:#ad4633>Bizon - Joker"
+  nerf:
+    displayName: "<!i><b><gradient:#191447:#3c4d77:#e0d133>Bizon - Nerf"
+  pharaoh:
+    displayName: "<!i><b><gradient:#344961:#1f2a3a:#efbc2d>Bizon - Pharaoh"
+  tiger:
+    displayName: "<!i><b><gradient:#ba6f0c:#9a4b00:#692b09>Bizon - Tiger"
+
+blocks_penetration: [ ]

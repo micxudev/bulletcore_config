@@ -1,0 +1,113 @@
+enabled: true
+name: weapon_usp
+customModelData: 13600
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>USP-S"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_9mm
+reloadHandler: default
+delayBetweenShots: 150
+maxBullets: 12
+reloadTime: 2200
+isAutomatic: false
+victimKnockbackResistance: 0.4
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 100.0
+  gravity: 1.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 80.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 20.0
+  body: 7.0
+  legs: 6.0
+  feet: 4.0
+  shield: 60.0
+
+recoil:
+  meanX: 0.25
+  meanY: 1.5
+  varianceX: 0.25
+  varianceY: 0.25
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.25
+  recoveryPercent: 0.95
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 2.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 1.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: usp_fire
+    volume: 4.0
+  reload_start:
+    sound: usp_reload_start
+    volume: 1.0
+  reload_end:
+    sound: usp_reload_end
+    volume: 1.0
+  empty:
+    sound: usp_empty
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.5
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 1
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.15
+
+skins:
+  ez:
+    displayName: "<!i><b><gradient:#638c7e:#adb3b4:#9c2b56>USP-S - EZ"
+  forest:
+    displayName: "<!i><b><gradient:#8f193f:#59e463:#153443>USP-S - Forest"
+  hield:
+    displayName: "<!i><b><gradient:#222225:#a74721:#2a2a2a>USP-S - Hield"
+  red:
+    displayName: "<!i><b><gradient:#222224:#46001a:#690017>USP-S - Red"
+  robot:
+    displayName: "<!i><b><gradient:#1a192b:#586279:#c5cdda>USP-S - Robot"
+  sayrex:
+    displayName: "<!i><b><gradient:#17161c:#9f2c2c:#ad514a>USP-S - Sayrex"
+
+blocks_penetration: [ ]

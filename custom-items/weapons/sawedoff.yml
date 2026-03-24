@@ -1,0 +1,116 @@
+enabled: true
+name: weapon_sawedoff
+customModelData: 13800
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>Sawed-Off"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_12gauge
+reloadHandler: single
+delayBetweenShots: 400
+maxBullets: 7
+reloadTime: 4900
+isAutomatic: false
+victimKnockbackResistance: 0.3
+pelletsPerShot: 6
+recoilImpulse: 0.025
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 100.0
+  gravity: 1.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 24.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 10.0
+  body: 5.0
+  legs: 4.0
+  feet: 2.0
+  shield: 60.0
+
+recoil:
+  meanX: 2.0
+  meanY: 5.0
+  varianceX: 2.0
+  varianceY: 1.0
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.25
+  recoveryPercent: 0.9
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 2.5
+    swimming: 2.5
+    jumping: 4.5
+    standing: 2.5
+    crawling: 2.5
+    riding: 2.5
+    flying: 2.5
+    climbing: 2.5
+    walking: 2.5
+  modifier:
+    sprinting: 1.0
+    sneaking: -0.5
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: -0.5
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: sawedoff_fire
+    volume: 1.5
+  reload_start:
+    sound: "un_used"
+    volume: 1.0
+  reload_end:
+    sound: sawedoff_reload_end
+    volume: 1.0
+  empty:
+    sound: sawedoff_empty
+    volume: 1.0
+  add_bullet:
+    sound: sawedoff_add_bullet
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.0
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 2
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.2
+
+skins:
+  boom:
+    displayName: "<!i><b><gradient:#612063:#6d41b8:#964898>Sawed-Off - Boom"
+  cowboy:
+    displayName: "<!i><b><gradient:#6e462e:#b07558:#a28646>Sawed-Off - Cowboy"
+  crocodile:
+    displayName: "<!i><b><gradient:#19502d:#225e38:#45be71>Sawed-Off - Crocodile"
+  emerald:
+    displayName: "<!i><b><gradient:#058743:#009c4a:#00d062>Sawed-Off - Emerald"
+  fish:
+    displayName: "<!i><b><gradient:#90689e:#ba5121:#7bb685>Sawed-Off - Fish"
+  gold:
+    displayName: "<!i><b><gradient:#e5bf66:#f0915b:#fef5b0>Sawed-Off - Gold"
+
+blocks_penetration: [ ]

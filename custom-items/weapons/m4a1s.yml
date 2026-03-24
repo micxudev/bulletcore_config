@@ -1,0 +1,113 @@
+enabled: true
+name: weapon_m4a1s
+customModelData: 13100
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>M4A1-S"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_556mm
+reloadHandler: default
+delayBetweenShots: 100
+maxBullets: 20
+reloadTime: 2600
+isAutomatic: true
+victimKnockbackResistance: 0.4
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 250.0
+  gravity: 2.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 128.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 20.0
+  body: 8.0
+  legs: 6.0
+  feet: 4.0
+  shield: 100.0
+
+recoil:
+  meanX: 0.25
+  meanY: 1.6
+  varianceX: 0.25
+  varianceY: 0.25
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.1
+  recoveryPercent: 0.25
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 2.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 1.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: m4a1s_fire
+    volume: 5.0
+  reload_start:
+    sound: m4a1s_reload_start
+    volume: 1.0
+  reload_end:
+    sound: m4a1s_reload_end
+    volume: 1.0
+  empty:
+    sound: m4a1s_empty
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.5
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 1
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.15
+
+skins:
+  beast:
+    displayName: "<!i><b><gradient:#400b22:#ca275b:#309744:#234a69>M4A1-S - Beast"
+  cyberpank:
+    displayName: "<!i><b><gradient:#006d7c:#272729:#00c8d2>M4A1-S - Cyberpank"
+  darkgold:
+    displayName: "<!i><b><gradient:#9b8321:#242426:#9ba527>M4A1-S - Dark Gold"
+  dino:
+    displayName: "<!i><b><gradient:#45a827:#8e4544:#927432>M4A1-S - Dino"
+  gradient:
+    displayName: "<!i><b><gradient:#633194:#cf3349:#ffdf3c>M4A1-S - Gradient"
+  may:
+    displayName: "<!i><b><gradient:#e0aa4d:#d8d1c6:#be6e1f>M4A1-S - May"
+
+blocks_penetration: [ ]

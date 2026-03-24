@@ -1,0 +1,108 @@
+enabled: true
+name: weapon_revolver
+customModelData: 13700
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>Revolver"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_762mm
+reloadHandler: single
+delayBetweenShots: 400
+maxBullets: 7
+reloadTime: 4900
+isAutomatic: false
+victimKnockbackResistance: 0.4
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 100.0
+  gravity: 1.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 80.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 30.0
+  body: 18.0
+  legs: 15.0
+  feet: 11.0
+  shield: 70.0
+
+recoil:
+  meanX: 0.5
+  meanY: 4.0
+  varianceX: 1.0
+  varianceY: 0.25
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.25
+  recoveryPercent: 0.95
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 3.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 1.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: revolver_fire
+    volume: 4.0
+  reload_start:
+    sound: revolver_reload_start
+    volume: 1.0
+  reload_end:
+    sound: revolver_reload_end
+    volume: 1.0
+  empty:
+    sound: revolver_empty
+    volume: 1.0
+  add_bullet:
+    sound: revolver_add_bullet
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.5
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 1
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.15
+
+skins:
+  gradient:
+    displayName: "<!i><b><gradient:#794c7e:#e69ea0:#ebb865>Revolver - Gradient"
+  lost:
+    displayName: "<!i><b><gradient:#202831:#35404e:#6e808b>Revolver - Lost"
+
+blocks_penetration: [ ]

@@ -1,0 +1,113 @@
+enabled: true
+name: weapon_deagle
+customModelData: 13500
+material: CROSSBOW
+displayName: "<!i><b><gradient:#454545:#707080>Deagle"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_45acp
+reloadHandler: default
+delayBetweenShots: 300
+maxBullets: 8
+reloadTime: 2400
+isAutomatic: false
+victimKnockbackResistance: 0.4
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 140.0
+  gravity: 1.4
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 80.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 25.0
+  body: 14.0
+  legs: 11.0
+  feet: 9.0
+  shield: 75.0
+
+recoil:
+  meanX: 0.0
+  meanY: 5.0
+  varianceX: 4.0
+  varianceY: 0.0
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.25
+  recoveryPercent: 1.0
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 3.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 1.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: deagle_fire
+    volume: 4.0
+  reload_start:
+    sound: deagle_reload_start
+    volume: 1.0
+  reload_end:
+    sound: deagle_reload_end
+    volume: 1.0
+  empty:
+    sound: deagle_empty
+    volume: 1.0
+
+particles:
+  step: 0.5
+  offset: 1.5
+  bullet_trail:
+    particle: DUST_COLOR_TRANSITION
+    count: 1
+    from-color: "#FFFFFF"
+    to-color: "#000000"
+    size: 0.15
+
+skins:
+  bluewater:
+    displayName: "<!i><b><gradient:#65868c:#b4c9c6:#779579>Deagle - Blue Water"
+  codred:
+    displayName: "<!i><b><gradient:#b11f22:#bababa:#ed898c>Deagle - Cod Red"
+  darkgold:
+    displayName: "<!i><b><gradient:#1f1f1f:#996515:#fddc5c>Deagle - Dark Gold"
+  golddragon:
+    displayName: "<!i><b><gradient:#6e1e23:#bb7925:#d8bf4a>Deagle - Gold Dragon"
+  rust:
+    displayName: "<!i><b><gradient:#192439:#cbc7c8:#737272>Deagle - Rust"
+  tiktok:
+    displayName: "<!i><b><gradient:#00aab4:#232323:#a80d68>Deagle - Tiktok"
+
+blocks_penetration: [ ]
