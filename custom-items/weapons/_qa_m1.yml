@@ -1,0 +1,100 @@
+enabled: true
+name: weapon_qa_m1
+customModelData: 15000
+material: CROSSBOW
+displayName: "<!i><u><yellow>Винтовка M1 Garand"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_762mm
+reloadHandler: default
+delayBetweenShots: 1600
+maxBullets: 8
+reloadTime: 11000
+isAutomatic: false
+victimKnockbackResistance: 0.5
+pelletsPerShot: 2
+recoilImpulse: 0.07
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 250.0
+  gravity: 2.5
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 200.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 20.0
+  body: 8.0
+  legs: 8.0
+  feet: 8.0
+  shield: 200.0
+
+recoil:
+  meanX: 0.0
+  meanY: 3.0
+  varianceX: 0.0
+  varianceY: 0.0
+  speed: 1.0
+  lerpFactor: 0.75
+  damping: 0.0
+  recoveryPercent: 0.0
+
+spray:
+  minSprayPercent: 0.5
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 0.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 0.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: qa_m1_fire
+    volume: 9.0
+  reload_start:
+    sound: qa_m1_reload_start
+    volume: 1.0
+  reload_end:
+    sound: qa_m1_reload_end
+    volume: 1.0
+  empty:
+    sound: qa_m1_empty
+    volume: 1.0
+
+particles:
+  step: 3.0
+  offset: 1.5
+  bullet_trail:
+    particle: DUST
+    count: 1
+    color: "#FFFFFF"
+    size: 0.5
+
+skins: [ ]
+
+blocks_penetration: [ ]

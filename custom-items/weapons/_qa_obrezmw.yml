@@ -1,0 +1,103 @@
+enabled: true
+name: weapon_qa_obrezmw
+customModelData: 16200
+material: CROSSBOW
+displayName: "<!i><#00bfff>Дробовик<#d8d8d8>-</#d8d8d8>Обрез</#00bfff>"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_12gauge
+reloadHandler: single
+delayBetweenShots: 200
+maxBullets: 2
+reloadTime: 4000
+isAutomatic: false
+victimKnockbackResistance: 0.3
+pelletsPerShot: 12
+recoilImpulse: 0.2
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 200.0
+  gravity: 2.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 10.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 10.0
+  body: 5.0
+  legs: 4.0
+  feet: 2.0
+  shield: 28.0
+
+recoil:
+  meanX: 2.0
+  meanY: 7.0
+  varianceX: 2.0
+  varianceY: 1.0
+  speed: 1.0
+  lerpFactor: 0.5
+  damping: 0.25
+  recoveryPercent: 0.9
+
+spray:
+  minSprayPercent: 0.5
+  state:
+    gliding: 4.0
+    swimming: 4.0
+    jumping: 8.0
+    standing: 5.0
+    crawling: 2.0
+    riding: 6.0
+    flying: 6.0
+    climbing: 6.0
+    walking: 6.0
+  modifier:
+    sprinting: 0.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: qa_obrez_fire
+    volume: 4.0
+  reload_start:
+    sound: qa_obrez_reload_start
+    volume: 1.0
+  reload_end:
+    sound: qa_obrez_reload_end
+    volume: 1.0
+  empty:
+    sound: qa_obrez_empty
+    volume: 1.0
+  add_bullet:
+    sound: qa_obrez_add_bullet
+    volume: 1.0
+
+particles:
+  step: 3.0
+  offset: 2.0
+  bullet_trail:
+    particle: DUST
+    count: 1
+    color: "#4D4D4D"
+    size: 0.5
+
+skins: [ ]
+
+blocks_penetration: [ ]

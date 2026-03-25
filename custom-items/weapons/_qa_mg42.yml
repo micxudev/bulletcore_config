@@ -1,0 +1,100 @@
+enabled: true
+name: weapon_qa_mg42
+customModelData: 15100
+material: CROSSBOW
+displayName: "<!i><u><yellow>Пулемёт MG-42"
+lore: [ ]
+maxStackSize: 1
+
+ammo: ammo_762mm
+reloadHandler: default
+delayBetweenShots: 100
+maxBullets: 65
+reloadTime: 13000
+isAutomatic: true
+victimKnockbackResistance: 0.6
+pelletsPerShot: 1
+recoilImpulse: 0.0
+
+projectile:
+  disguiseType: INVISIBLE
+  disguiseData: null
+  muzzleVelocity: 200.0
+  gravity: 2.0
+  minSpeed: -1
+  maxSpeed: -1
+  maxDistance: 100.0
+  drag: 1.0
+  dragInWater: 0.9
+  dragWhenRainingOrSnowing: 1.0
+  raySize: 0.15
+  maxAliveTicks: 600
+  removeWhenMinSpeedReached: false
+  removeWhenMaxSpeedReached: false
+  enableEntityCollisions: true
+
+damage:
+  head: 6.0
+  body: 5.0
+  legs: 5.0
+  feet: 5.0
+  shield: 50.0
+
+recoil:
+  meanX: 0.0
+  meanY: 0.9
+  varianceX: 0.0
+  varianceY: 0.0
+  speed: 0.0
+  lerpFactor: 0.0
+  damping: 0.0
+  recoveryPercent: 0.0
+
+spray:
+  minSprayPercent: 0.75
+  state:
+    gliding: 0.0
+    swimming: 0.0
+    jumping: 0.0
+    standing: 0.0
+    crawling: 0.0
+    riding: 0.0
+    flying: 0.0
+    climbing: 0.0
+    walking: 0.0
+  modifier:
+    sprinting: 0.0
+    sneaking: 0.0
+    underwater: 0.0
+    in_water: 0.0
+    in_vehicle: 0.0
+    in_flight: 0.0
+    in_crawling_pose: 0.0
+    on_climbable: 0.0
+
+sounds:
+  fire:
+    sound: qa_mg42_fire
+    volume: 6.0
+  reload_start:
+    sound: qa_mg42_reload_start
+    volume: 1.0
+  reload_end:
+    sound: qa_mg42_reload_end
+    volume: 1.0
+  empty:
+    sound: qa_mg42_empty
+    volume: 1.0
+
+particles:
+  step: 3.0
+  offset: 2.0
+  bullet_trail:
+    particle: DUST
+    count: 1
+    color: "#CCCCCC"
+    size: 0.5
+
+skins: [ ]
+
+blocks_penetration: [ ]
