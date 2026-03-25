@@ -3,7 +3,7 @@ name: weapon_qa_obrez
 customModelData: 15200
 material: CROSSBOW
 displayName: "<!i><u><yellow>Дробовик Обрез"
-lore: []
+lore: [ ]
 maxStackSize: 1
 
 ammo: ammo_12gauge

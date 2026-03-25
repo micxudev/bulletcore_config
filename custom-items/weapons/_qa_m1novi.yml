@@ -3,7 +3,7 @@ name: weapon_qa_m1novi
 customModelData: 15500
 material: CROSSBOW
 displayName: "<!i><b><yellow>M1 Novi 🮽"
-lore: []
+lore: [ ]
 maxStackSize: 1
 
 ammo: ammo_762mm
@@ -93,7 +93,7 @@ particles:
     particle: DUST
     count: 1
     color: "#FFFFFF"
-    size: 1.0
+    size: 0.5
 
 skins: [ ]
 

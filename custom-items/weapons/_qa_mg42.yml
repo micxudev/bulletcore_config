@@ -3,12 +3,11 @@ name: weapon_qa_mg42
 customModelData: 15100
 material: CROSSBOW
 displayName: "<!i><u><yellow>Пулемёт MG-42"
-lore: []
+lore: [ ]
 maxStackSize: 1
 
 ammo: ammo_762mm
 reloadHandler: default
-maxDistance: 100
 delayBetweenShots: 100
 maxBullets: 65
 reloadTime: 13000
@@ -94,7 +93,7 @@ particles:
     particle: DUST
     count: 1
     color: "#CCCCCC"
-    size: 1.0
+    size: 0.5
 
 skins: [ ]
 

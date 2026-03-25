@@ -3,7 +3,7 @@ name: weapon_qa_m1
 customModelData: 15000
 material: CROSSBOW
 displayName: "<!i><u><yellow>Винтовка M1 Garand"
-lore: []
+lore: [ ]
 maxStackSize: 1
 
 ammo: ammo_762mm
@@ -60,7 +60,7 @@ spray:
     crawling: 0.0
     riding: 0.0
     flying: 0.0
-    climbing: 0.
+    climbing: 0.0
     walking: 0.0
   modifier:
     sprinting: 0.0

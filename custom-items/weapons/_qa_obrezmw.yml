@@ -3,14 +3,14 @@ name: weapon_qa_obrezmw
 customModelData: 16200
 material: CROSSBOW
 displayName: "<!i><#00bfff>Дробовик<#d8d8d8>-</#d8d8d8>Обрез</#00bfff>"
-lore: []
+lore: [ ]
 maxStackSize: 1
 
 ammo: ammo_12gauge
 reloadHandler: single
 delayBetweenShots: 200
 maxBullets: 2
-reloadTime: 4000  
+reloadTime: 4000
 isAutomatic: false
 victimKnockbackResistance: 0.3
 pelletsPerShot: 12
@@ -96,7 +96,7 @@ particles:
     particle: DUST
     count: 1
     color: "#4D4D4D"
-    size: 1.0
+    size: 0.5
 
 skins: [ ]
 

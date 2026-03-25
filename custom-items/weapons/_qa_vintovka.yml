@@ -3,7 +3,7 @@ name: weapon_qa_vintovka
 customModelData: 15400
 material: CROSSBOW
 displayName: "<!i><u><yellow>Винтовка"
-lore: []
+lore: [ ]
 maxStackSize: 1
 
 ammo: ammo_762mm
@@ -52,18 +52,18 @@ recoil:
 spray:
   minSprayPercent: 0.5
   state:
-    gliding: 1.0
-    swimming: 1.0
+    gliding: 0.0
+    swimming: 0.0
     jumping: 1.0
-    standing: 1.0
-    crawling: 0.5
+    standing: 0.0
+    crawling: 0.0
     riding: 0.0
     flying: 0.0
     climbing: 0.0
     walking: 0.0
   modifier:
     sprinting: 0.0
-    sneaking: -0.2
+    sneaking: 0.0
     underwater: 0.0
     in_water: 0.0
     in_vehicle: 0.0
@@ -95,7 +95,7 @@ particles:
     particle: DUST
     count: 1
     color: "#FFFFFF"
-    size: 1.0
+    size: 0.5
 
 skins:
   gift:
