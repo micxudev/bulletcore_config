@@ -44,14 +44,14 @@ tiers:
 
 kits:
   war:
-    icon: "<symbol>"
+    icon: "🮭"
     displayName: "<!i><b><red>Kit War"
-  m1:
-    icon: "<symbol>"
-    displayName: "<!i><b><red>Kit M1"
+  m1novi:
+    icon: "🮰"
+    displayName: "<!i><b><red>Kit M1novi"
   vintovka:
-    icon: "<symbol>"
+    icon: "🮯"
     displayName: "<!i><b><red>Kit Vintovka"
   tournament:
-    icon: "<symbol>"
+    icon: "🮮"
     displayName: "<!i><b><red>Kit Tournament"
