@@ -55,6 +55,6 @@ kits:
   tournament:
     icon: "🮮"
     displayName: "<!i><b><red>Kit Tournament"
-  musketer:
+  musketeer:
     icon: "🮪"
-    displayName: "<!i><b><red>Kit Musketer"
+    displayName: "<!i><b><red>Kit Musketeer"
