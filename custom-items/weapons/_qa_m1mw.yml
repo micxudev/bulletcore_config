@@ -19,8 +19,8 @@ recoilImpulse: 0.07
 projectile:
   disguiseType: INVISIBLE
   disguiseData: null
-  muzzleVelocity: 250.0
-  gravity: 2.5
+  muzzleVelocity: 350.0
+  gravity: 1.0
   minSpeed: -1
   maxSpeed: -1
   maxDistance: 200.0
