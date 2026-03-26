@@ -20,7 +20,7 @@ projectile:
   disguiseType: INVISIBLE
   disguiseData: null
   muzzleVelocity: 200.0
-  gravity: 2.0
+  gravity: 0.0
   minSpeed: -1
   maxSpeed: -1
   maxDistance: 120.0
