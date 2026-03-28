@@ -1,3 +1,6 @@
+emptyPlaceholderValue: "<empty>"
+globalTopSize: 10
+
 tiers:
   LT5:
     points: 1
@@ -46,15 +49,20 @@ kits:
   war:
     icon: "🮭"
     displayName: "Kit War"
+    topSize: 10
   m1novi:
     icon: "🮰"
     displayName: "Kit M1novi"
+    topSize: 10
   vintovka:
     icon: "🮯"
     displayName: "Kit Vintovka"
+    topSize: 10
   tournament:
     icon: "🮮"
     displayName: "Kit Tournament"
+    topSize: 10
   musketeer:
     icon: "🮪"
     displayName: "Kit Musketeer"
+    topSize: 10
