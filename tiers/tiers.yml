@@ -1,60 +1,60 @@
 tiers:
   LT5:
     points: 1
-    displayName: "<!i><b><red>LT5"
+    displayName: "<b><#6B7280>LT5</b><#FFFFFF>"
   HT5:
     points: 5
-    displayName: "<!i><b><red>HT5"
+    displayName: "<b><#64748B>HT5</b><#FFFFFF>"
   LT4:
     points: 10
-    displayName: "<!i><b><red>LT4"
+    displayName: "<b><#3B82F6>LT4</b><#FFFFFF>"
   HT4:
     points: 15
-    displayName: "<!i><b><red>HT4"
+    displayName: "<b><#2563EB>HT4</b><#FFFFFF>"
   LT3:
     points: 20
-    displayName: "<!i><b><red>LT3"
+    displayName: "<b><#06B6D4>LT3</b><#FFFFFF>"
   HT3:
     points: 25
-    displayName: "<!i><b><red>HT3"
+    displayName: "<b><#10B981>HT3</b><#FFFFFF>"
   RLT2:
     points: 30
-    displayName: "<!i><b><red>RLT2"
+    displayName: "<b><#22C55E>RLT2</b><#FFFFFF>"
   LT2:
     points: 35
-    displayName: "<!i><b><red>LT2"
+    displayName: "<b><#84CC16>LT2</b><#FFFFFF>"
   RHT2:
     points: 40
-    displayName: "<!i><b><red>RHT2"
+    displayName: "<b><#EAB308>RHT2</b><#FFFFFF>"
   HT2:
     points: 45
-    displayName: "<!i><b><red>HT2"
+    displayName: "<b><#F97316>HT2</b><#FFFFFF>"
   RLT1:
     points: 50
-    displayName: "<!i><b><red>RLT1"
+    displayName: "<b><#EF4444>RLT1</b><#FFFFFF>"
   LT1:
     points: 55
-    displayName: "<!i><b><red>LT1"
+    displayName: "<b><#EC4899>LT1</b><#FFFFFF>"
   RHT1:
     points: 60
-    displayName: "<!i><b><red>RHT1"
+    displayName: "<b><#D946EF>RHT1</b><#FFFFFF>"
   HT1:
     points: 80
-    displayName: "<!i><b><red>HT1"
+    displayName: "<b><#FACC15>HT1</b><#FFFFFF>"
 
 kits:
   war:
     icon: "🮭"
-    displayName: "<!i><b><red>Kit War"
+    displayName: "Kit War"
   m1novi:
     icon: "🮰"
-    displayName: "<!i><b><red>Kit M1novi"
+    displayName: "Kit M1novi"
   vintovka:
     icon: "🮯"
-    displayName: "<!i><b><red>Kit Vintovka"
+    displayName: "Kit Vintovka"
   tournament:
     icon: "🮮"
-    displayName: "<!i><b><red>Kit Tournament"
+    displayName: "Kit Tournament"
   musketeer:
     icon: "🮪"
-    displayName: "<!i><b><red>Kit Musketeer"
+    displayName: "Kit Musketeer"
